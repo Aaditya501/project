@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #0A7C3D; /* Breaking Bad green */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#about {
+    background-color: whitesmoke;
+    padding: 40px;
+    text-align: center;
+}
+
+#projects {
+    background-color: whitesmoke;
+    padding: 40px;
+}
+
+.project {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border: 3px solid #0A7C3D; /* Breaking Bad green */
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #0A7C3D; /* Breaking Bad green */
+    text-decoration: none;
+}
